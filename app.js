@@ -85,8 +85,8 @@ function listar () {
     <td>${tarea.desc}</td>
     <td>${tarea.completed}</td>
     <td>
-    <button onclick="editarFila(${tarea.id})">Editar</button>
-    <button onclick="eliminarFila(${tarea.id})">Eliminar</button>
+    <button onclick="editarFila(${tarea.id})" class="btn btn-secondary">Editar</button>
+    <button onclick="eliminarFila(${tarea.id})" class="btn btn-dark">Eliminar</button>
     </td>
     `
   })
